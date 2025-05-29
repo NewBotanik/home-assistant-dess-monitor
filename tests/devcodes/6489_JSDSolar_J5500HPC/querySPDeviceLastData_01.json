@@ -1,0 +1,83 @@
+﻿{
+	"err": 0,
+	"desc": "ERR_NONE",
+	"dat": {
+		"gts": "2025-05-29 12:08:11",
+		"pars": {
+			"gd_": [
+				{
+					"id": "gd_grid_voltage",
+					"par": "Mains input voltage",
+					"val": "0.0",
+					"unit": "V"
+				},
+				{
+					"id": "gd_bse_grid_rating_frequency_read",
+					"par": "Mains frequency",
+					"val": "0.00",
+					"unit": "Hz"
+				}
+			],
+			"pv_": [
+				{
+					"id": "pv_output_power",
+					"par": "PV Power",
+					"val": "0",
+					"unit": "W"
+				},
+				{
+					"id": "pv_input_current",
+					"par": "PV current",
+					"val": "0.00",
+					"unit": "A"
+				},
+				{
+					"id": "pv_voltage",
+					"par": "PV voltage",
+					"val": "0.0",
+					"unit": "V"
+				}
+			],
+			"sy_": [
+				{
+					"id": "sy_status",
+					"par": "Operating mode",
+					"val": "Battery mode"
+				}
+			],
+			"bt_": [
+				{
+					"id": "bt_model",
+					"par": "DCDC control status",
+					"val": "Discharge soft start"
+				},
+				{
+					"id": "bt_battery_current",
+					"par": "BMS current",
+					"val": "647.96",
+					"unit": "A"
+				},
+				{
+					"id": "bt_battery_voltage",
+					"par": "BMS voltage",
+					"val": "53.00",
+					"unit": "V"
+				},
+				{
+					"id": "bt_battery_capacity",
+					"par": "BMS SOC",
+					"val": "82.00",
+					"unit": "%"
+				}
+			],
+			"bc_": [
+				{
+					"id": "bc_load_percent",
+					"par": "Load percentage",
+					"val": "7",
+					"unit": "%"
+				}
+			]
+		}
+	}
+}

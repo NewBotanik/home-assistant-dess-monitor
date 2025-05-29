@@ -1,0 +1,50 @@
+﻿{
+	"err": 0,
+	"desc": "ERR_NONE",
+	"dat": {
+		"parameter": [
+			{
+				"par": "battery_voltage",
+				"name": "Battery voltage",
+				"val": "53.0000",
+				"unit": "V"
+			},
+			{
+				"par": "bt_battery_capacity",
+				"name": "BMS SOC",
+				"val": "43.0000",
+				"unit": "%"
+			},
+			{
+				"par": "gd_grid_voltage",
+				"name": "Mains input voltage",
+				"val": "229.0000",
+				"unit": "V"
+			},
+			{
+				"par": "input_frequency",
+				"name": "Input frequency",
+				"val": "49.9000",
+				"unit": "Hz"
+			},
+			{
+				"par": "load_active_power",
+				"name": "Output active power",
+				"val": "0.4910",
+				"unit": "kW"
+			},
+			{
+				"par": "output_current_percentage",
+				"name": "Output current percentage",
+				"val": "11.0000",
+				"unit": "%"
+			},
+			{
+				"par": "output_voltage",
+				"name": "Output voltage",
+				"val": "229.1000",
+				"unit": "V"
+			}
+		]
+	}
+}

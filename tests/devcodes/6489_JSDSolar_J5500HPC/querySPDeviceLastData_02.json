@@ -1,0 +1,83 @@
+﻿{
+	"err": 0,
+	"desc": "ERR_NONE",
+	"dat": {
+		"gts": "2025-05-29 23:30:25",
+		"pars": {
+			"gd_": [
+				{
+					"id": "gd_grid_voltage",
+					"par": "Mains input voltage",
+					"val": "229.2",
+					"unit": "V"
+				},
+				{
+					"id": "gd_bse_grid_rating_frequency_read",
+					"par": "Mains frequency",
+					"val": "49.97",
+					"unit": "Hz"
+				}
+			],
+			"pv_": [
+				{
+					"id": "pv_output_power",
+					"par": "PV Power",
+					"val": "0",
+					"unit": "W"
+				},
+				{
+					"id": "pv_input_current",
+					"par": "PV current",
+					"val": "0.00",
+					"unit": "A"
+				},
+				{
+					"id": "pv_voltage",
+					"par": "PV voltage",
+					"val": "0.0",
+					"unit": "V"
+				}
+			],
+			"sy_": [
+				{
+					"id": "sy_status",
+					"par": "Operating mode",
+					"val": "Mains mode"
+				}
+			],
+			"bt_": [
+				{
+					"id": "bt_model",
+					"par": "DCDC control status",
+					"val": "Charge"
+				},
+				{
+					"id": "bt_battery_current",
+					"par": "BMS current",
+					"val": "11.80",
+					"unit": "A"
+				},
+				{
+					"id": "bt_battery_voltage",
+					"par": "BMS voltage",
+					"val": "53.00",
+					"unit": "V"
+				},
+				{
+					"id": "bt_battery_capacity",
+					"par": "BMS SOC",
+					"val": "43.00",
+					"unit": "%"
+				}
+			],
+			"bc_": [
+				{
+					"id": "bc_load_percent",
+					"par": "Load percentage",
+					"val": "11",
+					"unit": "%"
+				}
+			]
+		}
+	}
+}

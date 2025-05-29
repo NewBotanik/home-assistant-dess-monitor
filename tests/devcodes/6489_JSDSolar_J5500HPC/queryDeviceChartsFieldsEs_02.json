@@ -1,0 +1,96 @@
+﻿{
+	"err": 0,
+	"desc": "ERR_NONE",
+	"dat": [
+		{
+			"devcode": 6489,
+			"uid": 4764173,
+			"optional": "battery_voltage",
+			"name": "Battery voltage",
+			"uint": "V",
+			"order": 1000,
+			"visable": true
+		},
+		{
+			"devcode": 6489,
+			"uid": 4764173,
+			"optional": "bt_battery_capacity",
+			"name": "BMS SOC",
+			"uint": "%",
+			"order": 1000,
+			"visable": true
+		},
+		{
+			"devcode": 6489,
+			"uid": 4764173,
+			"optional": "energy_today",
+			"name": "Total PV power generation on the day",
+			"uint": "kWh",
+			"order": 1000,
+			"visable": false
+		},
+		{
+			"devcode": 6489,
+			"uid": 4764173,
+			"optional": "energy_total",
+			"name": "Total photovoltaic power generation",
+			"uint": "kWh",
+			"order": 1000,
+			"visable": false
+		},
+		{
+			"devcode": 6489,
+			"uid": 4764173,
+			"optional": "gd_grid_voltage",
+			"name": "Mains input voltage",
+			"uint": "V",
+			"order": 1000,
+			"visable": true
+		},
+		{
+			"devcode": 6489,
+			"uid": 4764173,
+			"optional": "input_frequency",
+			"name": "Input frequency",
+			"uint": "Hz",
+			"order": 1000,
+			"visable": true
+		},
+		{
+			"devcode": 6489,
+			"uid": 4764173,
+			"optional": "load_active_power",
+			"name": "Output active power",
+			"uint": "kW",
+			"order": 1000,
+			"visable": true
+		},
+		{
+			"devcode": 6489,
+			"uid": 4764173,
+			"optional": "output_current_percentage",
+			"name": "Output current percentage",
+			"uint": "%",
+			"order": 1000,
+			"visable": true
+		},
+		{
+			"devcode": 6489,
+			"uid": 4764173,
+			"optional": "output_voltage",
+			"name": "Output voltage",
+			"uint": "V",
+			"order": 1000,
+			"visable": true
+		},
+		{
+			"devcode": 6489,
+			"uid": 4764173,
+			"optional": "pv_output_power",
+			"name": "PV Power",
+			"uint": "kW",
+			"order": 1000,
+			"visable": false
+		}
+	]
+}

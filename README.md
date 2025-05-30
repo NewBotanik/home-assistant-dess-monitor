@@ -12,6 +12,7 @@ Tested with devcodes:
  - 2341
  - 2376
  - 2428
+ - 3489 JSDSolar J5500HPC
 
 If you have problems with the setup, create an issue with information about your inverter model and the datalogger devcode
 

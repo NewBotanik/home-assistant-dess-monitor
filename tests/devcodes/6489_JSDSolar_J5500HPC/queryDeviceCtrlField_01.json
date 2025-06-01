@@ -1,0 +1,191 @@
+﻿{
+	"err": 0,
+	"desc": "ERR_NONE",
+	"dat": {
+		"field": [
+			{
+				"id": "system_time",
+				"name": "system time",
+				"hint": "yymmdd"
+			},
+			{
+				"id": "cltd_inverter_remote_switch",
+				"name": "Controls the inverter switch",
+				"item": [
+					{
+						"key": "0",
+						"val": "Open"
+					},
+					{
+						"key": "1",
+						"val": "Close"
+					}
+				]
+			},
+			{
+				"id": "cltd_restore_default",
+				"name": "Restore the default value",
+				"item": [
+					{
+						"key": "0",
+						"val": "Default"
+					}
+				]
+			},
+			{
+				"id": "rating_power",
+				"name": "Power generation statistics time",
+				"hint": "hhmmss"
+			},
+			{
+				"id": "cltd_maximum_charging_current",
+				"name": "Maximum charging current",
+				"unit": "A",
+				"hint": "010-999"
+			},
+			{
+				"id": "cltd_set_output_priority",
+				"name": "Output priority",
+				"item": [
+					{
+						"key": "12336",
+						"val": "Mains output is preferred"
+					},
+					{
+						"key": "12337",
+						"val": "Photovoltaic output is preferred"
+					},
+					{
+						"key": "12338",
+						"val": "Priority from high to low,Photovoltaic > Battery > Mains"
+					}
+				]
+			},
+			{
+				"id": "cltd_mains_charging_current",
+				"name": "Mains charging current",
+				"unit": "A",
+				"hint": "001~999"
+			},
+			{
+				"id": "cltd_12Vbattery_input",
+				"name": "12V battery input",
+				"unit": "V",
+				"hint": "10.0~12.0V"
+			},
+			{
+				"id": "cltd_battery_mode",
+				"name": "Battery Mode",
+				"item": [
+					{
+						"key": "48",
+						"val": "Lead-acid battery"
+					},
+					{
+						"key": "49",
+						"val": "Water injection battery"
+					},
+					{
+						"key": "50",
+						"val": "The lithium battery"
+					},
+					{
+						"key": "51",
+						"val": "The custom"
+					}
+				]
+			},
+			{
+				"id": "cltd_inverter_output_voltage",
+				"name": "Inverter output voltage",
+				"item": [
+					{
+						"key": "100",
+						"val": "100"
+					},
+					{
+						"key": "110",
+						"val": "110"
+					},
+					{
+						"key": "115",
+						"val": "115"
+					},
+					{
+						"key": "120",
+						"val": "120"
+					},
+					{
+						"key": "127",
+						"val": "127"
+					},
+					{
+						"key": "208",
+						"val": "208"
+					},
+					{
+						"key": "220",
+						"val": "208"
+					},
+					{
+						"key": "230",
+						"val": "230"
+					},
+					{
+						"key": "240",
+						"val": "240"
+					}
+				]
+			},
+			{
+				"id": "cltd_set_output_mode",
+				"name": "Output mode",
+				"item": [
+					{
+						"key": "12336",
+						"val": "Home appliance model"
+					},
+					{
+						"key": "12337",
+						"val": "UPS mode"
+					}
+				]
+			},
+			{
+				"id": "cltd_charging_priority",
+				"name": "Charging priority",
+				"item": [
+					{
+						"key": "12336",
+						"val": "Mains charging is preferred"
+					},
+					{
+						"key": "12337",
+						"val": "Photovoltaic charging is preferred"
+					},
+					{
+						"key": "12338",
+						"val": "The mains and PV are charged together"
+					},
+					{
+						"key": "12339",
+						"val": "Only PV charging is allowed"
+					}
+				]
+			},
+			{
+				"id": "cltd_24Vbattery_input",
+				"name": "24v battery undervoltage point",
+				"unit": "V",
+				"hint": "20.0~22.0V"
+			},
+			{
+				"id": "cltd_48Vbattery_input",
+				"name": "48v battery undervoltage point",
+				"unit": "V",
+				"hint": "46.0~50.0V"
+			}
+		],
+		"two_tier": {}
+	}
+}

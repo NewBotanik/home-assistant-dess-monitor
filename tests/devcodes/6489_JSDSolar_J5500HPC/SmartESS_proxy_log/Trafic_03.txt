@@ -1,0 +1,91 @@
+﻿https://github.com/syssi/esphome-pipsolar/issues/160
+
+tx:  GPDAT0  rx:(0 5 4002 0 00 229.9 49.99 000.0 00.00 229.4 50.01 00.00 23.6 000.0 000 0000 0000 075 013.9 000.0 0000 040.0 
+tx:  GPV  rx:(014.0 023.6 00.00 00.01 00000 00 0 0 384.2 395.0 370.0 372.0 000.0 00 00000 00000 0000 0000 0000 0010 00000 00000 00000 0000000000000000 
+tx:  GBAT  rx:(023.6 000.00 02 21.0 21.6 
+tx:  TE?  rx:(ACDEHKX 
+tx:  Q1  rx:(000.0 000.0 229.9 000 00.0 1.96 40.0 10000000 
+tx:  F  rx:#230.0 015 024.0 50.0 
+tx:  GMOD  rx:(B 
+tx:  SVFW  rx:(4.002 (20241123  
+tx:  GTMP  rx:(040.0 015.0 025.0 000.0 000.0 
+tx:  GLINE  rx:(000.0 00.00 264.0 154.0 255.0 163.0 70.00 40.00 00000 000 00000 00000 00000 
+tx:  GBAT  rx:(023.6 000.00 02 21.0 21.6 GBUS  rx:(384.2 380.0 380.0 
+tx:  GCHG  rx:(384.2 023.6 02 000.0 007.54 000.00 28.2 27.0 29.2 060.00 0480 060 120 720 0 0 2 0 000.00 000.00 000.00 000.0 2 
+tx:  GOP  rx:(229.9 50.01 000.00 00.04 00000 00043 00000 00000 00000 000 10327 00000 00000 00000 00000 
+tx:  GINV  rx:(229.9 50.02 001.3 
+tx:  FAN???  rx:(020 00116 00113 0 0 
+tx:  GWS  rx:(00 0000000000000000 0000000000000000 
+tx:  BL  BL075 
+tx:  GPV  rx:(013.9 023.6 00.00 00.02 00000 00 0 0 384.1 395.0 370.0 372.0 000.0 00 00000 00000 0000 0000 0000 0010 00000 00000 00000 0000000000000000   
+
+
+
+
+F #230.0 015 024.0 50.0 - invertor type 
+   ac voltage | ac current | battery voltage | fregvency
+I #222222222222222222222222222R1.4.002
+	version HW or ect
+BL BL100
+   battery level
+GBAT (024.6 000.00 02 21.0 21.6 -battery status
+      curent battery voltage | battery current?? | battery cels or type??? | battery shutdown voltage| battery low voltage
+GBMS (00000 65535 65535 65535 65535 65535 65535 65535 00000 00000 65535 65535 65535 65535 00000 65535 65535
+GBUS (386.4 380.0 380.0
+GCHG (386.1 024.6 02 000.0 007.15 000.00 28.2 27.0 29.2 060.00 0480 060 120 720 0 0 0 0 000.00 000.00 000.00 000.0 2
+     dc bus voltage| battery voltage| cels??? | curent???| ??? | ??? | constant voltage point| floatin charge point | equalization point| max charge curent | ???? | equalization time | equalization delay | equalization interval|
+GINV (230.0 50.02 001.2
+     curent output voltage | output fregvency | curent
+
+GMOD (B curent worck mode
+      B - battery
+
+GPPV ( 1 013.7 000.0 000.0 000.0 000.0 000.0 000.0 000.0 000.0 000.0 000.0 000.0 000.0 000.0 000.0 000.0 000.0 000.0
+GTMP (037.0 015.0 024.0 000.0 000.0 temperature sensor
+      curent temp | ??? | ??? | ??? | ??? |
+GBOOT (04369 21845
+GFAIL (00 05 00112 0000 0000 0000 0000 2814 4391 0302 0000 0137 0000 0410 471 00000 65535 00000 00000 2 00000 00000 00260
+GFLAG (00 00 00 00 01 01 0 005.7
+GLINE (000.0 00.00 264.0 185.0 255.0 194.0 60.00 40.00 00000 000 00000 00000 00000
+GPARA (+00035 -00070 04441 10437 50000 +09.000 09000
+GPIGS (000.0 00.0 024.6 000.0 038.1 038.6 00.0 000.1 041.5 000.0 386.3 00000 00000 00000 37.0 15.0 9.000 0 0 0000
+GPIRI (40 007 000 03600 03600 027 0 0
+GCF ( BT0000000000000000 RL0000000000001111 P10000000001110000 I10000000000000000 I20000001000000000
+GOP (000.0 02.68 000.00 00.01 00000 00000 00000 00000 00000 000 10453 00000 00000 00000 00000
+GPV (013.7 024.6 00.00 00.00 00000 00 0 0 384.0 402.5 377.5 379.5 000.0 00 00000 00000 0000 0000 0000 0010 00000 00000 00000 0000000000000000
+GWS (00 0000000000000000 0000000000000000
+NDI (22222222222222222
+GPDAT0 (0 5 4002 0 00 230.1 49.99 000.0 00.00 229.7 50.01 00.00 23.5 000.0 000 0000 0000 075 013.7 000.0 0000 039.0 status 
+       | ??? | ??? | ??? | ??? | ??? |output voltage| output fregvency| ??? | ??? |output voltage?| output fregvency? | ??? | battery voltage| ??? | ??? | ??? | ??? |battery level| ??? | ??? | ??? | ??? |
+Q1 (000.0 000.0 230.1 000 00.0 1.95 39.0 10000000
+	|???| ??? | output voltage| ??? | ??? | ??? | ??? | ??? |
+
+
+SVFW (4.002 (20241123 - software version
+FAN??? (020 00141 00135 0 0
+		curent fan speed |hole sensor fan1??? |hole sensor fan2???| ??? | ??? |
+OPR?? (00  - output priority
+OPM?? (01  output mode
+TBAT? (0  battery type
+CPR?? (02 - charger priority
+CHGC??? (060 - chareg current
+EOD???? (21.0 - battery underlotage level
+DATE?????? 00 01 01 -curent date
+TIME?????? 00 20 39 -curent time
+V??? (230 230  - output voltage
+GCC??? (040 - mains chargin current
+
+TE? запрос включенных бинарних параметров
+TD? запрос выключених бинарних параметров
+
+TEх установка бинароного параметра в высокий уровень х - буква A-Z
+TDх установка бинароного параметра в низкий уровень уровень х - буква A-Z
+	M - блокировка изменения параметров
+	C - auto restart when overload p09
+	D - auto restart when overtemperature p10
+	E - main input cut warning p11
+	I - energy savin mode p12
+	G - overload transer to bypass p13
+	O - silent mode p14
+	Y - inverter soft start setting p25
+	L - battery disconnection alarm 

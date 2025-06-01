@@ -166,7 +166,15 @@ async def set_inverter_output_priority(token: str, secret: str, device_data, val
             param_value = map_param_value[value]
 
             param_id = 'bse_eybond_ctrl_49'
+        case 6489:
+            map_param_value = {
+                'Utility': '12336',
+                'Solar': '12337',
+                'SBU': '12338'
+            }
+            param_value = map_param_value[value]
 
+            param_id = 'cltd_set_output_priority'
         case _:
             return
     return await set_ctrl_device_param(token, secret, device_data, param_id, param_value)
@@ -200,6 +208,19 @@ async def get_inverter_output_priority(token: str, secret: str, device_data):
             # param_value = map_param_value[value]
 
             param_id = 'bse_output_source_priority'
+        case 6489:
+            map_param_value = {
+                'Utility first': 'Utility',
+                'Utility': 'Utility',
+                'Solar first': 'Solar',
+                'Solar': 'Solar',
+                'SBU': 'SBU',
+                'SBU first': 'SBU',
+                None: None
+            }
+            # param_value = map_param_value[value]
+
+            param_id = 'cltd_set_output_priority'
 
         case _:
             return

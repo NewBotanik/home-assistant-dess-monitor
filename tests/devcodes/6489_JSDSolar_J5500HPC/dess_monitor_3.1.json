@@ -1,0 +1,501 @@
+{
+  "home_assistant": {
+    "installation_type": "Home Assistant OS",
+    "version": "2025.5.3",
+    "dev": false,
+    "hassio": true,
+    "virtualenv": false,
+    "python_version": "3.13.3",
+    "docker": true,
+    "arch": "x86_64",
+    "timezone": "Europe/Kyiv",
+    "os_name": "Linux",
+    "os_version": "6.12.23-haos",
+    "supervisor": "2025.05.3",
+    "host_os": "Home Assistant OS 15.2",
+    "docker_version": "28.0.4",
+    "chassis": "vm",
+    "run_as_root": true
+  },
+  "custom_components": {
+    "dess_monitor": {
+      "documentation": "https://github.com/Antoxa1081/home-assistant-dess-monitor/blob/main/README.md",
+      "version": "0.3.1",
+      "requirements": []
+    },
+    "hacs": {
+      "documentation": "https://hacs.xyz/docs/use/",
+      "version": "2.0.5",
+      "requirements": [
+        "aiogithubapi>=22.10.1"
+      ]
+    },
+    "ecoflow_cloud": {
+      "documentation": "https://github.com/tolwi/hassio-ecoflow-cloud",
+      "version": "1.3.0-beta4",
+      "requirements": [
+        "paho-mqtt>=1.6.1",
+        "protobuf>=4.23.0",
+        "jsonpath-ng>=1.7.0"
+      ]
+    },
+    "localtuya": {
+      "documentation": "https://github.com/rospogrigio/localtuya/",
+      "version": "5.2.3",
+      "requirements": []
+    },
+    "tuya_local": {
+      "documentation": "https://github.com/make-all/tuya-local",
+      "version": "2025.5.1",
+      "requirements": [
+        "tinytuya==1.16.3",
+        "tuya-device-sharing-sdk~=0.2.1"
+      ]
+    },
+    "mikrotik_router": {
+      "documentation": "https://github.com/tomaae/homeassistant-mikrotik_router",
+      "version": "0.0.0",
+      "requirements": [
+        "librouteros>=3.4.1",
+        "mac-vendor-lookup>=0.1.12"
+      ]
+    }
+  },
+  "integration_manifest": {
+    "domain": "dess_monitor",
+    "name": "DESS Monitor",
+    "codeowners": [
+      "Antoxa1081"
+    ],
+    "config_flow": true,
+    "dependencies": [],
+    "documentation": "https://github.com/Antoxa1081/home-assistant-dess-monitor/blob/main/README.md",
+    "homekit": {},
+    "iot_class": "local_push",
+    "issue_tracker": "https://github.com/Antoxa1081/home-assistant-dess-monitor/issues",
+    "requirements": [],
+    "ssdp": [],
+    "version": "0.3.1",
+    "zeroconf": [],
+    "is_built_in": false,
+    "overwrites_built_in": false
+  },
+  "setup_times": {
+    "null": {
+      "setup": 1.7696060240268707e-05
+    },
+    "01JW872NJVKB6GHZW99RYR2HAA": {
+      "wait_import_platforms": -0.017933616996742785,
+      "config_entry_setup": 33.54192194005009
+    }
+  },
+  "data": {
+    "device": {
+      "devcode": 6489,
+      "data": {
+        "last_data": {
+          "gts": "2025-05-29 23:05:35",
+          "pars": {
+            "gd_": [
+              {
+                "id": "gd_grid_voltage",
+                "par": "Mains input voltage",
+                "val": "231.6",
+                "unit": "V"
+              },
+              {
+                "id": "gd_bse_grid_rating_frequency_read",
+                "par": "Mains frequency",
+                "val": "49.96",
+                "unit": "Hz"
+              }
+            ],
+            "pv_": [
+              {
+                "id": "pv_output_power",
+                "par": "PV Power",
+                "val": "0",
+                "unit": "W"
+              },
+              {
+                "id": "pv_input_current",
+                "par": "PV current",
+                "val": "0.00",
+                "unit": "A"
+              },
+              {
+                "id": "pv_voltage",
+                "par": "PV voltage",
+                "val": "0.0",
+                "unit": "V"
+              }
+            ],
+            "sy_": [
+              {
+                "id": "sy_status",
+                "par": "Operating mode",
+                "val": "Mains mode"
+              }
+            ],
+            "bt_": [
+              {
+                "id": "bt_model",
+                "par": "DCDC control status",
+                "val": "Charge"
+              },
+              {
+                "id": "bt_battery_current",
+                "par": "BMS current",
+                "val": "11.70",
+                "unit": "A"
+              },
+              {
+                "id": "bt_battery_voltage",
+                "par": "BMS voltage",
+                "val": "53.00",
+                "unit": "V"
+              },
+              {
+                "id": "bt_battery_capacity",
+                "par": "BMS SOC",
+                "val": "40.00",
+                "unit": "%"
+              }
+            ],
+            "bc_": [
+              {
+                "id": "bc_load_percent",
+                "par": "Load percentage",
+                "val": "9",
+                "unit": "%"
+              }
+            ]
+          }
+        },
+        "energy_flow": {
+          "brand": 0,
+          "status": 0,
+          "date": "2025-05-30 05:08:13",
+          "bt_status": [
+            {
+              "par": "bt_battery_capacity",
+              "val": "40.0000",
+              "unit": "%",
+              "status": -1
+            },
+            {
+              "par": "battery_active_power",
+              "val": "0",
+              "status": 0
+            }
+          ],
+          "pv_status": [
+            {
+              "par": "pv_output_power",
+              "val": "0.0000",
+              "unit": "kW",
+              "status": 0
+            }
+          ],
+          "gd_status": [
+            {
+              "par": "grid_active_power",
+              "val": "0",
+              "status": 1
+            }
+          ],
+          "bc_status": [
+            {
+              "par": "load_active_power",
+              "val": "0.3970",
+              "unit": "kW",
+              "status": -1
+            }
+          ],
+          "ol_status": [
+            {
+              "par": "oil_output_power",
+              "val": "0",
+              "status": 0
+            }
+          ],
+          "we_status": [
+            {
+              "par": "wind_output_power",
+              "val": "0",
+              "status": 0
+            }
+          ],
+          "mi_status": [],
+          "mt_status": [],
+          "wp_status": [],
+          "gn_status": [],
+          "fd_status": []
+        },
+        "pars": {
+          "parameter": [
+            {
+              "par": "battery_voltage",
+              "name": "Battery voltage",
+              "val": "53.0000",
+              "unit": "V"
+            },
+            {
+              "par": "bt_battery_capacity",
+              "name": "BMS SOC",
+              "val": "40.0000",
+              "unit": "%"
+            },
+            {
+              "par": "gd_grid_voltage",
+              "name": "Mains input voltage",
+              "val": "231.6000",
+              "unit": "V"
+            },
+            {
+              "par": "input_frequency",
+              "name": "Input frequency",
+              "val": "49.9000",
+              "unit": "Hz"
+            },
+            {
+              "par": "load_active_power",
+              "name": "Output active power",
+              "val": "0.3970",
+              "unit": "kW"
+            },
+            {
+              "par": "output_current_percentage",
+              "name": "Output current percentage",
+              "val": "10.0000",
+              "unit": "%"
+            },
+            {
+              "par": "output_voltage",
+              "name": "Output voltage",
+              "val": "231.7000",
+              "unit": "V"
+            }
+          ]
+        },
+        "device": {
+          "devalias": "**REDACTED**",
+          "sn": "**REDACTED**",
+          "status": 0,
+          "brand": 0,
+          "devtype": "",
+          "collalias": "**REDACTED**",
+          "pn": "**REDACTED**",
+          "devaddr": 1,
+          "devcode": 6489,
+          "usr": "**REDACTED**",
+          "uid": 4764173,
+          "profitToday": "0.0000",
+          "profitTotal": "0.0000",
+          "buyProfitToday": "0.0000",
+          "buyProfitTotal": "0.0000",
+          "sellProfitToday": "0.0000",
+          "sellProfitTotal": "0.0000",
+          "pid": 5323261,
+          "focus": true,
+          "outpower": "0.0000",
+          "energyToday": "0.0000",
+          "energyYear": "0.0000",
+          "energyTotal": "0.0000",
+          "buyEnergyToday": "0.0000",
+          "buyEnergyTotal": "0.0000",
+          "sellEnergyToday": "0.0000",
+          "sellEnergyTotal": "0.0000"
+        },
+        "ctrl_fields": [
+          {
+            "id": "system_time",
+            "name": "system time",
+            "hint": "yymmdd"
+          },
+          {
+            "id": "cltd_inverter_remote_switch",
+            "name": "Controls the inverter switch",
+            "item": [
+              {
+                "key": "0",
+                "val": "Open"
+              },
+              {
+                "key": "1",
+                "val": "Close"
+              }
+            ]
+          },
+          {
+            "id": "cltd_restore_default",
+            "name": "Restore the default value",
+            "item": [
+              {
+                "key": "0",
+                "val": "Default"
+              }
+            ]
+          },
+          {
+            "id": "rating_power",
+            "name": "Power generation statistics time",
+            "hint": "hhmmss"
+          },
+          {
+            "id": "cltd_maximum_charging_current",
+            "name": "Maximum charging current",
+            "unit": "A",
+            "hint": "010-999"
+          },
+          {
+            "id": "cltd_set_output_priority",
+            "name": "Output priority",
+            "item": [
+              {
+                "key": "12336",
+                "val": "Mains output is preferred"
+              },
+              {
+                "key": "12337",
+                "val": "Photovoltaic output is preferred"
+              },
+              {
+                "key": "12338",
+                "val": "Priority from high to low,Photovoltaic > Battery > Mains"
+              }
+            ]
+          },
+          {
+            "id": "cltd_mains_charging_current",
+            "name": "Mains charging current",
+            "unit": "A",
+            "hint": "001~999"
+          },
+          {
+            "id": "cltd_12Vbattery_input",
+            "name": "12V battery input",
+            "unit": "V",
+            "hint": "10.0~12.0V"
+          },
+          {
+            "id": "cltd_battery_mode",
+            "name": "Battery Mode",
+            "item": [
+              {
+                "key": "48",
+                "val": "Lead-acid battery"
+              },
+              {
+                "key": "49",
+                "val": "Water injection battery"
+              },
+              {
+                "key": "50",
+                "val": "The lithium battery"
+              },
+              {
+                "key": "51",
+                "val": "The custom"
+              }
+            ]
+          },
+          {
+            "id": "cltd_inverter_output_voltage",
+            "name": "Inverter output voltage",
+            "item": [
+              {
+                "key": "100",
+                "val": "100"
+              },
+              {
+                "key": "110",
+                "val": "110"
+              },
+              {
+                "key": "115",
+                "val": "115"
+              },
+              {
+                "key": "120",
+                "val": "120"
+              },
+              {
+                "key": "127",
+                "val": "127"
+              },
+              {
+                "key": "208",
+                "val": "208"
+              },
+              {
+                "key": "220",
+                "val": "208"
+              },
+              {
+                "key": "230",
+                "val": "230"
+              },
+              {
+                "key": "240",
+                "val": "240"
+              }
+            ]
+          },
+          {
+            "id": "cltd_set_output_mode",
+            "name": "Output mode",
+            "item": [
+              {
+                "key": "12336",
+                "val": "Home appliance model"
+              },
+              {
+                "key": "12337",
+                "val": "UPS mode"
+              }
+            ]
+          },
+          {
+            "id": "cltd_charging_priority",
+            "name": "Charging priority",
+            "item": [
+              {
+                "key": "12336",
+                "val": "Mains charging is preferred"
+              },
+              {
+                "key": "12337",
+                "val": "Photovoltaic charging is preferred"
+              },
+              {
+                "key": "12338",
+                "val": "The mains and PV are charged together"
+              },
+              {
+                "key": "12339",
+                "val": "Only PV charging is allowed"
+              }
+            ]
+          },
+          {
+            "id": "cltd_24Vbattery_input",
+            "name": "24v battery undervoltage point",
+            "unit": "V",
+            "hint": "20.0~22.0V"
+          },
+          {
+            "id": "cltd_48Vbattery_input",
+            "name": "48v battery undervoltage point",
+            "unit": "V",
+            "hint": "46.0~50.0V"
+          }
+        ],
+        "device_extra": {
+          "output_priority": null
+        }
+      },
+      "direct_data": {}
+    }
+  }
+}

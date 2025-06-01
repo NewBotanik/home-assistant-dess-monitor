@@ -1,0 +1,66 @@
+﻿{
+	"err": 0,
+	"desc": "ERR_NONE",
+	"dat": [
+		{
+			"e0": "battery_voltage",
+			"e1": "Battery voltage",
+			"e2": "urtu,6,0",
+			"e3": "V"
+		},
+		{
+			"e0": "bt_battery_capacity",
+			"e1": "BMS SOC",
+			"e2": "urtu,15,10",
+			"e3": "%"
+		},
+		{
+			"e0": "energy_today",
+			"e1": "Total PV power generation on the day",
+			"e2": "urtu,14,40",
+			"e3": "kWh"
+		},
+		{
+			"e0": "energy_total",
+			"e1": "Total photovoltaic power generation",
+			"e2": "urtu,14,44",
+			"e3": "kWh"
+		},
+		{
+			"e0": "gd_grid_voltage",
+			"e1": "Mains input voltage",
+			"e2": "urtu,5,0",
+			"e3": "V"
+		},
+		{
+			"e0": "input_frequency",
+			"e1": "Input frequency",
+			"e2": "urtu,0,8",
+			"e3": "Hz"
+		},
+		{
+			"e0": "load_active_power",
+			"e1": "Output active power",
+			"e2": "urtu,9,8",
+			"e3": "kW"
+		},
+		{
+			"e0": "output_current_percentage",
+			"e1": "Output current percentage",
+			"e2": "urtu,0,6",
+			"e3": "%"
+		},
+		{
+			"e0": "output_voltage",
+			"e1": "Output voltage",
+			"e2": "urtu,0,4",
+			"e3": "V"
+		},
+		{
+			"e0": "pv_output_power",
+			"e1": "PV Power",
+			"e2": "urtu,14,8",
+			"e3": "kW"
+		}
+	]
+}

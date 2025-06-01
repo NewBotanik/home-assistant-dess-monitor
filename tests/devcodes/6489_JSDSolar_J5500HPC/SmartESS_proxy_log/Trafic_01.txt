@@ -1,0 +1,405 @@
+﻿----------------------------
+Started
+Server: 06560001000AFF0119020E0B26350023    
+Node:   065600010014FF01463630303030323230363932393336333230
+
+Server: 0656 0001000A FF01 19020E0B26350023    
+Node:   0656 00010014 FF01 463630303030323230363932393336333230
+
+Server: 0656 0001000A FF01  [ETB][STX][SO][VT]&5[NUL]#
+	19 (Hex) = 25 (Dec) -> ETB (End of Transmission Block) - недрукований символ
+	02 (Hex) = 2 (Dec) -> STX (Start of Text) - недрукований символ
+	0E (Hex) = 14 (Dec) -> SO (Shift Out) - недрукований символ
+	0B (Hex) = 11 (Dec) -> VT (Vertical Tab) - недрукований символ
+	26 (Hex) = 38 (Dec) -> & (Ampersand) - друкований символ
+	35 (Hex) = 53 (Dec) -> 5 (Digit Five) - друкований символ
+	00 (Hex) = 0 (Dec) -> NUL (Null character) - недрукований символ
+	23 (Hex) = 35 (Dec) -> # (Number Sign) - друкований символ
+
+	                       
+Node:   0656 00010014 FF01 46 36 30 30 30 30 32 32 30 36 39 32 39 33 36 33 32 30
+                           F  6  0  0  0  0  2  2  0  6  9  2  9  3  6  3  2  0	       - PN пристрою
+----------------------------						   
+2 packet
+Server: 06570001000BFF02010204050C191A2241
+Node:   065700010008FF0200016E756C6C065700010016FF020002463630303030323230363932393336333230065700010007FF020004312E3606570001000CFF020005372E362E352E3131065700010005FF02000C31065700010006FF0200193134065700010017FF02001A323032352D30322D31342031393A33383A353306570001000EFF020022393630302D382D312D30065700010005FF02004130
+
+Server: 0657 0001000B FF02 010204050C191A2241                           запит по ардресах 01 02 04 05 0C 19 1A 22 41 
+
+Node:   0657 00010008 FF02 0001 6E756C6C                                [null]
+        0657 00010016 FF02 0002 463630303030323230363932393336333230    [F60000220692936320] - PN пристрою
+		0657 00010007 FF02 0004 312E36                                  [1.6] - теж якась версія
+		0657 0001000C FF02 0005 372E362E352E3131                        [7.6.5.11] - FMW VER
+		0657 00010005 FF02 000C 31	                                    [1] 
+		0657 00010006 FF02 0019 3134                                    [14]
+		0657 00010017 FF02 001A 323032352D30322D31342031393A33383A3533  [2025-02-14 19:38:53]  - очевидно дата та час
+		0657 0001000E FF02 0022 393630302D382D312D30                    [9600-8-1-0] - очевидно налаштування COM
+		0657 00010005 FF02 0041 30                                      [0] 
+
+---------------------------------
+GPV  4750560D    
+28 30 32 37 2E 35 20 30 35 32 2E 34 20 30 30 2E 30 30 20 30 30 2E 30 30 20 30 30 30 30 30 20 30 30 20 30 20 30 20 30 30 30 2E 30 20 30 30 30 2E 30 20 30 30 30 2E 30 20 30 30 30 2E 30 20 30 30 30 2E 30 20 30 30 20 30 30 30 30 30 20 30 30 30 30 30 20 30 30 30 30 20 30 30 30 30 20 30 30 30 30 20 30 30 30 30 20 30 30 30 30 30 20 30 30 30 30 30 20 30 30 30 30 30 20 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 0D
+(  0  2  7  .  5     0  3  2  .  4     0  0  .  0  0     0  0  .  0  0     0  0  0  0  0     0  0     0     0     0  0  0  .  0     0  0  0  .  0     0                                                                                                                                                                                                                                                                                                    
+
+---------------------------------
+GPDAT0   4750444154300D   
+28 30 20 34 20 34 30 32 30 20 30 20 30 30 20 32 32 35 2E 33 20 35 30 2E 30 34 20 32 32 33 2E 34 20 35 30 2E 30 34 20 32 32 36 2E 35 20 35 30 2E 30 34 20 30 31 2E 32 38 20 35 32 2E 32 20 30 30 30 2E 30 20 30 30 35 20 30 32 38 35 20 30 32 34 35 20 31 30 30 20 30 32 37 2E 35 20 30 30 30 2E 30 20 30 30 30 30 20 30 34 38 2E 30 0D
+(  0     4     4  0  2  0     0     0  0     2  2  5  .  3     5  0  .  0    
+
+---------------------------------
+Q1  51310D    
+28 32 32 34 2E 35 20 30 30 30 2E 30 20 32 32 34 2E 35 20 30 30 34 20 35 30 2E 30 20 32 2E 31 36 20 34 38 2E 30 20 30 30 31 30 30 30 30 30 0D         
+(224.5 000.0 224.5 004 50.0 2.16 48.0  00100000    
+
+---------------------------------
+F   460D    
+23 32 33 30 2E 30 20 30 32 31 20 30 34 38 2E 30 20 35 30 2E 30 0D
+#230.0 021 048.0 50.0 
+
+---------------------------------
+GMOD  474D4F440D    
+28 4C 0D
+(L
+(B
+QMOD<cr>: Device Mode inquiry 
+MODE 	CODE(M) 	Notes 
+Power on mode 	P 	Power on mode 
+Standby mode 	S 	Standby mode 
+Line mode 		L 	Line mode 
+Battery mode 	B 	Battery mode 
+Fault mode 		F 	Fault mode 
+Shutdown mode 	D 	Shutdown mode 
+
+---------------------------------
+GBAT  474241540D
+28 30 35 32 2E 34 20 30 30 30 2E 30 31 20 30 34 20 34 38 2E 30 20 34 39 2E 31 0D
+(052.4 000.01 04 48.0 49.1 
+
+---------------------------------
+TE?   54453F0D
+28 43 44 45 47 48 4B 53 58 0D
+(CDEGHKSX
+
+---------------------------------
+GCHG  474348470D
+28 30 30 30 2E 30 20 30 30 30 2E 30 20 30 34 20 30 30 30 2E 30 20 30 30 30 2E 30 30 20 30 30 30 2E 30 30 20 35 36 2E 33 20 35 35 2E 32 20 35 38 2E 34 20 30 36 30 2E 30 30 20 30 34 38 30 20 30 36 30 20 31 32 30 20 37 32 30 20 30 20 33 20 30 20 30 20 30 30 30 2E 30 30 20 30 30 30 2E 30 30 20 30 30 30 2E 30 30 20 30 30 30 2E 30 20 30 0D
+(000.0 000.0 04 000.0 000.00 000.00 56.3 55.2 58.4 060.00 048 060 120 720 0 3 0 3 000.00 000.00 000.00 000.00 0
+
+---------------------------------
+GBUS 474255530D
+28 34 31 32 2E 30 20 33 38 30 2E 30 20 33 38 30 2E 30 0D
+(412.0 380.0 380.0
+
+---------------------------------
+BL   424C0D
+42 4C 30 36 34 0D
+BL064
+
+---------------------------------
+SVFW 535646570D    Main CPU Firmware version inquiry
+28 34 2E 30 32 30 20 28 32 30 32 34 30 36 30 35 0D 0D
+(4.020 (20240605
+
+---------------------------------
+GPIRI 47504952490D    Query Inverter Rating Information
+28 34 30 20 30 30 37 20 30 30 30 20 30 35 30 30 30 20 30 35 30 30 30 20 30 30 34 20 31 20 30 0D
+(40 007 000 05000 05000 004 1 0
+
+---------------------------------
+GPIGS 47504947530D     QPIGS<cr>: Device general status parameters inquiry 
+мережа
+28 32 32 33 2E 38 20 35 30 2E 30 20 30 35 33 2E 30 20 30 30 30 2E 30 20 30 30 30 2E 32 20 32 32 35 2E 36 20 35 30 2E 30 20 30 30 30 2E 31 20 32 32 37 2E 30 20 30 30 31 2E 35 20 34 31 39 2E 33 20 30 30 33 30 38 20 30 30 33 34 34 20 30 30 33 30 30 20 34 38 2E 30 20 35 30 2E 30 20 30 2E 30 30 30 20 30 20 30 20 30 30 30 30 0D
+(223.8 50.0 053.0 000.0 000.2 225.6 50.0 000.1 227.0 001.5 419.3 00308 00344 00300 48.0 50.0 0.000 0 0 0000
+
+батарея розряж
+28 30 30 30 2E 30 20 30 30 2E 30 20 30 35 33 2E 31 20 30 30 30 2E 30 20 30 30 35 2E 30 20 32 32 39 2E 39 20 35 30 2E 30 20 30 30 33 2E 34 20 32 33 31 2E 32 20 30 30 31 2E 32 20 34 31 37 2E 32 20 30 30 32 30 36 20 30 30 32 38 30 20 30 30 31 39 37 20 35 30 2E 30 20 35 33 2E 30 20 30 2E 30 30 30 20 30 20 30 20 30 30 30 30 0D
+(000.0 00.0 053.1 000.0 005.0 229.9 50.0 003.4 231.2 001.2 417.2 00206 00280 00197 50.0 53.0 0.000 0 0 0000
+
+28 30 30 30 2E 30 20 30 30 2E 30 20 30 35 33 2E 30 20 30 30 30 2E 30 20 30 30 36 2E 37 20 32 33 30 2E 30 20 35 30 2E 30 20 30 30 32 2E 39 20 32 33 31 2E 32 20 30 30 31 2E 35 20 34 31 31 2E 32 20 30 30 33 30 38 20 30 30 33 35 34 20 30 30 33 30 31 20 35 30 2E 30 20 35 34 2E 30 20 30 2E 30 30 30 20 30 20 30 20 30 30 30 30 0D
+(000.0 00.0 053.0 000.0 006.7 230.0 50.0 002.9 231.2 001.5 411.2 00308 00354 00301 50.0 54.0 0.000 0 0 0000
+
+батарея розряж+навантаження
+28 30 30 30 2E 30 20 30 30 2E 30 20 30 35 32 2E 36 20 30 30 30 2E 30 20 30 33 32 2E 34 20 32 32 39 2E 39 20 34 39 2E 39 20 30 30 37 2E 33 20 32 33 31 2E 30 20 30 30 37 2E 36 20 33 39 33 2E 35 20 30 31 35 38 33 20 30 31 37 34 37 20 30 31 35 36 38 20 35 31 2E 30 20 35 35 2E 30 20 30 2E 30 30 30 20 30 20 30 20 30 30 30 30 0D
+(000.0 00.0 052.6 000.0 032.4 229.9 49.9 007.3 231.0 007.6 393.5 01583 01747 01568 51.0 55.0 0.000 0 0 0000
+
+(BBB.B CC.C DDD.D EEE.E FFF.F GGG.G HH.H III.I JJJ.J KKK.K OOO.O TTTTT EEEEE UUUUU WW.W PP.P 
+BBB.B	Grid voltage	V
+CC.C	Grid frequency	Hz
+DDD.D	Battery voltage	V	 
+EEE.E   
+FFF.F   Battery discharge current	A   - 006.7 A
+GGG.G	AC output voltage 
+HH.H 	AC output frequency
+III.I   AC output apparent power
+JJJ.J   AC output voltage Вихідна напруга AC, стабільна.
+KKK.K 
+OOO.O 
+TTTTT 
+EEEEE  Load power
+UUUUU 
+WW.W 
+PP.P 
+
+---------------------------------
+GOP  474F500D
+283232342E372034392E3938203030312E32382030302E3030203030313939203030303030203030323837203030303030203030303030203030352030303030302030303030302030303732382030303030312030333036320D
+(224.7 49.98 001.28 00.00 00199 00000 00287 00000 00000 005 00000 00000 00728 00001 03062
+28 32 32 33 2E 38 20 35 30 2E 30 31 20 30 30 31 2E 35 34 20 30 30 2E 30 30 20 30 30 33 30 39 20 30 30 30 30 30 20 30 30 33 34 34 20 30 30 30 30 30 20 30 30 30 30 30 20 30 30 36 20 30 30 30 30 30 20 30 30 30 30 30 20 30 30 36 32 32 20 30 30 30 30 31 20 31 39 39 35 36 0D
+(223.8 50.01 001.54 00.00 00309 00000 00344 00000 00000 006 00000 00000 00622 00001 19956
+
+
+---------------------------------
+GBMS  47424D530D   BMS message
+2830303030382030303030302030303532342030303030302030303233342030303634302033323736372033323736372030303030302030303030302031393530302030303537362033323736372033323736372030303030302033323736372033323736370D
+(00008 00000 00524 00000 00234 00640 32767 32767 00000 00000 19500 00576 32767 32767 00000 32767 32767
+28 30 30 30 30 38 20 30 30 30 30 30 20 30 30 35 33 33 20 30 30 30 30 30 20 30 30 32 35 32 20 30 30 38 31 30 20 33 32 37 36 37 20 33 32 37 36 37 20 30 30 30 30 30 20 30 30 30 30 30 20 31 39 35 30 30 20 30 30 35 37 36 20 33 32 37 36 37 20 33 32 37 36 37 20 30 30 30 30 30 20 33 32 37 36 37 20 33 32 37 36 37 0D
+(00008 00000 00533 00000 00252 00810 32767 32767 00000 00000 19500 00576 32767 32767 00000 32767 32767
+
+--RESP
+ACK	41 43 4B 0D
+NAK	4E 41 4B 0D
+----------- 
+GPIWS 47504957530D -> NAK    QPIWS<cr>: Device Warning Status inquiry
+SPIWS 53504957530D -> NAK
+
+GPI 4750490D -> NAK  QPI<cr>: Device Protocol ID Inquiry 
+
+SPI 5350490D -> NAK  QPI<cr>: Device Protocol ID Inquiry 
+
+GID 4749440D -> NAK QID<cr>: The device serial number inquiry
+
+GSID 475349440D -> NAK QSID<cr>: The device serial number inquiry (the length is more than 14
+
+FAN???   4641463F3F3F0D -> NAK  
+------------------
+
+
+
+READ Mains charging current
+2025-02-18 15:55:21.857 - Server: 326200010008 0104 4743433F3F0D   GCC???  4743433F3F3F0D
+2025-02-18 15:55:22.689 - Node: 326200010006 0104 4E414B0D         NAK     283031320D   (012   12A
+
+WRITE 5A Mains charging current
+2025-02-18 15:55:29.664 - Server: 326300010009 0104 4743433030350D GCC005
+2025-02-18 15:55:30.5 - Node: 326300010006 0104 41434B0D           ACK
+
+READ Output Priority
+2025-02-18 16:21:41.31 - Server: 32D300010008 0104 4F50523F3F0D   OPR??
+2025-02-18 16:21:42.25 - Node: 32D300010006 0104 2830300D         (00 
+  - 00 Mains output is preferred
+  - 01 Photovoltaic output is preferred
+  - 02 Priority from high to low,Photovoltaic > Battery > Mains
+
+READ Maximum charging current   60A
+2025-02-18 16:26:51.905 - Server: 32EB0001000A 0104 434847433F3F3F0D  CHGC??? 
+2025-02-18 16:26:52.736 - Node: 32EB00010007 0104 283036300D  (060
+
+24v battery undervoltage point
+2025-02-18 16:34:20.589 - Server: 33180001000A 0104 454F443F3F3F3F0D  EOD????
+2025-02-18 16:34:21.423 - Node: 331800010008 0104 2834382E300D  (48.0
+
+48v battery undervoltage point
+2025-02-18 16:34:22.97 - Server: 33190001000A 0104 454F443F3F3F3F0D    EOD????  
+2025-02-18 16:34:23.805 - Node: 331900010008 0104 2834382E300D (48.0
+
+12V battery input
+2025-02-18 16:50:50.067 - Server: 33650001000A 0104 454F443F3F3F3F0D  EOD????
+2025-02-18 16:50:50.896 - Node: 336500010008 0104 2834382E300D (48.0
+
+
+Charging priority
+2025-02-18 16:37:04.644 - Server: 331E00010008 0104 4350523F3F0D  CPR??
+2025-02-18 16:37:05.477 - Node: 331E00010006 0104 2830330D   (03  
+  - 00 Mains charging is preferred
+  - 01 Photovoltaic charging is preferred
+  - 02 The mains and PV are charged together
+  - 03 Only PV charging is allowed
+
+Battery Mode  
+2025-02-18 16:41:57.255 - Server: 333600010008 0104 544241543F0D  TBAT?
+2025-02-18 16:41:58.089 - Node: 333600010005 0104 28330D  (3
+  - 0 Lead-acid battery
+  - 1 Water injection battery
+  - 2 The lithium battery
+  - 3 The custom
+  
+Inverter output voltage
+2025-02-18 16:52:33.734 - Server: 336800010007 0104 563F3F3F0D    V???
+2025-02-18 16:52:34.567 - Node: 33680001000B 0104 28323330203233300D  (230 230
+
+Output mode
+2025-02-18 16:55:54.631 - Server: 337D00010008 0104 4F504D3F3F0D  OPM?? 
+2025-02-18 16:55:55.361 - Node: 337D00010006 0104 2830310D  (01 
+  - 00 Home appliance model
+  - 01 UPS mode
+
+tx:  GPDAT0  rx:(0 5 4002 0 00 229.9 49.99 000.0 00.00 229.4 50.01 00.00 23.6 000.0 000 0000 0000 075 013.9 000.0 0000 040.0 
+tx:  GPV  rx:(014.0 023.6 00.00 00.01 00000 00 0 0 384.2 395.0 370.0 372.0 000.0 00 00000 00000 0000 0000 0000 0010 00000 00000 00000 0000000000000000 
+tx:  GBAT  rx:(023.6 000.00 02 21.0 21.6 
+tx:  TE?  rx:(ACDEHKX 
+tx:  Q1  rx:(000.0 000.0 229.9 000 00.0 1.96 40.0 10000000 
+tx:  F  rx:#230.0 015 024.0 50.0 
+tx:  GMOD  rx:(B 
+tx:  SVFW  rx:(4.002 (20241123  
+tx:  GTMP  rx:(040.0 015.0 025.0 000.0 000.0 
+tx:  GLINE  rx:(000.0 00.00 264.0 154.0 255.0 163.0 70.00 40.00 00000 000 00000 00000 00000 
+tx:  GBAT  rx:(023.6 000.00 02 21.0 21.6 GBUS  rx:(384.2 380.0 380.0 
+tx:  GCHG  rx:(384.2 023.6 02 000.0 007.54 000.00 28.2 27.0 29.2 060.00 0480 060 120 720 0 0 2 0 000.00 000.00 000.00 000.0 2 
+tx:  GOP  rx:(229.9 50.01 000.00 00.04 00000 00043 00000 00000 00000 000 10327 00000 00000 00000 00000 
+tx:  GINV  rx:(229.9 50.02 001.3 
+tx:  FAN???  rx:(020 00116 00113 0 0 
+tx:  GWS  rx:(00 0000000000000000 0000000000000000 
+tx:  BL  BL075 
+tx:  GPV  rx:(013.9 023.6 00.00 00.02 00000 00 0 0 384.1 395.0 370.0 372.0 000.0 00 00000 00000 0000 0000 0000 0010 00000 00000 00000 0000000000000000   
+
+
+--RESP
+ACK	41 43 4B 0D
+NAK	4E 41 4B 0D
+--NONE
+QBV	5152560D 
+QS	51530D
+QGS	5147530D 
+PF	50460D  
+QDI	5144490D  
+QID	5149440D  
+QMOD	514D4F440D  
+
+QS, Q1 - Query UPS for status (short) (old) 
+Where:
+MMM.M Input voltage
+NNN.N Fault voltage
+PPP.P Output voltage
+QQQ Load level (%)
+RR.R Output frequency (Hz)
+SS.S Battery voltage [or S.SS]
+TT.TPS temperature (° Celsius)
+b7..b0#→ 8 bit status - 1 means:
+bit# 	Description
+7 Utility Fail (Immediate)
+6 Battery Low
+5 Bypass/Boost or Buck Active
+4 UPS Failed
+3 UPS Type is Standby 0 is Online
+2 Test in progress
+1 Shutdown Active
+0 Beeper On 
+
+-------------------------------------------
+PIP-4048MS inverter
+https://forums.aeva.asn.au/viewtopic.php?title=pip4048ms-inverter&p=60229&t=4332#p60229
+
+The Q1 command (CRC 1B FC) seems to send back the following:
+
+(        All command responses start with the open parenthesis character.
+AAAAA    Local inverter status (first field). This seems to be a bit field,
+         commonly taking the values 0x3809 or similar (shows as 14345 decimal).
+         Edit: this seems to become a count in seconds till the end of CV
+         (absorb) charging, in firmware version 72.70.
+BBBBB    ParaExistInfo first field. This always seems to be 00001, even with
+         no parallel card installed.
+         Edit: this seems to become a count in seconds till the end of float
+         charging (when it will start CC (bulk) charging), in firmware version
+         72.70.
+CC       SccOkFlag. I assume that 1 means the SCC is powered and is
+         communicating.
+DD       AllowSccOnFlag.
+EE       ChargeAverageCurrent. I'm not clear on what chargers are included.
+FFF      SCC PWM temperature, in °C. From global variable wSccPWMTemp.
+GGG      Inverter temperature, in °C. Presumed to be from the AC heatsink.
+HHH      "Battery temperature". It seems that this must be the temperature
+         reported by a sensor on the battery to bus inverter heatsink.
+III      Transformer temperature. It's the result of calling _wTempDegreeTxt().
+         Presumably also in °C.
+JJ       Parallel mode: 0 1 2 mean NEw, SLave, MAster.
+KK       FanLockStatus. I'd say 01 means fans are locked, 00 means not locked.
+LLL      FanPWMDuty. No longer used. Always 000.
+MMMM     "FanPWM", but is actually speed in percent. 0000 represents off, and
+         0100 represents 100% duty cycle (flat out). However, on start-up, this
+         value goes to 0100 without the fans roaring. 0030 (30%) seems to be
+         the lowest speed, quite quiet. At 42% load, the fans went to 42% 
+         speed.
+NNNN     SCC charge power, watts. This is one of the changes to firmware
+         version 72.40 that is not present in version 52.30. In 72.40, the
+         result of the call to _swGetSccChgPower() is divided by 10; in 52.30
+         is is displayed as is. I suspect 52.30 would have displayed tenths of
+         watts.
+OOOO     ParaWarning. Presumably, some warning bitfield related to paralleled
+         units.
+PP.PP    SYNFreq. Wild guess: frequency of inverter after synchronising with
+         the mains input.
+QQ       Inverter charge status. This will likely be 10 for no charging, 11 for
+         bulk stage, 12 for absorb, or 13 for float. However, bulk stage will
+         usually report as 12, same as absorb. I don't know what the signif-
+         icance of the leading "1" digit is; I've always found it to be one, but
+         the firmware calculates this value modulo 10 (stripping off the tens
+         digit) a lot of the time.
+
+These 17 fields are followed by the usual checksum and carriage return.
+[ Edit March 2020: Firmware version 74.40 (which is for PF1 non-64V models) has an extra 10 fields, most concerning the equalisation settings. ]
+
+---------------------------------------
+I  Query UPS for rated information #3 (old)
+Reply
+#MMMMMMMMMMMMMMM NNNNNNNNNN PPPPPPPPPP
+e.g.
+#                OLHVT1K0   00322.02
+Where:
+M..M  UPS manufacturer (15 characters fixed length, filled with spaces)
+N..N  UPS model (10 characters fixed length, filled with spaces)
+P..P  UPS firmware version (10 characters fixed length, filled with spaces)
+
+---------------------------------------
+F  Query UPS for rated information #4 (old)
+Reply
+#MMM.M NNN PPP.P QQ.Q
+e.g.
+#220.0 004 036.0 50.0
+Where:
+MMM.M Rating voltage
+NNN Rating current (Ampère)
+PPP.P Battery voltage (as per battery pack) [or PP.PP]
+QQ.Q Nominal frequency (Hz) 
+	
+---------------------------------------
+Команди GPV, GPVATC, Q1 та F використовуються для взаємодії з інверторами серії InfiniSolar виробництва Voltronic Power через інтерфейс RS232. Нижче наведено детальний опис кожної з цих команд:
+
+1. GPV (Get PV Voltage)
+
+    Призначення: Запит напруги на вході фотоелектричних (PV) панелей.
+    Формат команди: GPV<cr>
+    Очікувана відповідь: (BBB.B V<cr>
+        BBB.B: Поточна напруга на вході PV панелей у вольтах (V).
+
+2. GPVATC (Get PV Voltage and Current)
+
+    Призначення: Отримання поточних значень напруги та струму на вході PV панелей.
+    Формат команди: GPVATC<cr>
+    Очікувана відповідь: (BBB.B V CCC.C A<cr>
+        BBB.B: Поточна напруга на вході PV панелей у вольтах (V).
+        CCC.C: Поточний струм на вході PV панелей в амперах (A).
+
+3. Q1 (Query General Status)
+
+    Призначення: Запит загального стану інвертора.
+
+    Формат команди: Q1<cr>
+
+    Очікувана відповідь: Розширений рядок даних, що містить різноманітні параметри інвертора, такі як:
+        Напруга та частота мережі
+        Напруга та частота виходу
+        Напруга та струм батареї
+        Температура інвертора
+        Стан навантаження
+        Інші параметри
+
+    Формат та деталі відповіді можуть відрізнятися залежно від моделі інвертора та версії прошивки.
+
+4. F (Set Device Output Frequency)
+
+    Призначення: Встановлення вихідної частоти інвертора.
+    Формат команди: Fxx<cr>
+        xx: Бажана вихідна частота в герцах (наприклад, 50 або 60).
+    Очікувана відповідь: Підтвердження успішного прийняття команди або повідомлення про помилку.
+
+Зверніть увагу, що точний формат та набір підтримуваних команд можуть відрізнятися залежно від моделі інвертора та версії прошивки. Рекомендується ознайомитися з офіційною документацією виробника для отримання детальної інформації.
